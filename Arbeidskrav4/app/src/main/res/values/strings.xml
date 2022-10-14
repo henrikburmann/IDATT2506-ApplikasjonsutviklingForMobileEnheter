@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Arbeidskrav4</string>
+    <string name="next">Neste</string>
+    <string name="previous">Forrige</string>
+
+    <string-array name="names">
+        <item>Aas</item>
+        <item>Dahls</item>
+        <item>Hansa</item>
+        <item>Nordlands</item>
+        <item>Ringnes</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Drammensøl. Helt ok</item>
+        <item>Trondheimsøl. Beste på lista. Kan smake litt banan ved dårlig batch</item>
+        <item>Bergensøl. De er veldig stolt av den selv, men helt mid</item>
+        <item>Opprinnelig fra Bodø, men produseres av E.C Dahls</item>
+        <item>Oslos dølleste øl. Billig da</item>
+    </string-array>
+    <array name="pictures">
+        <item>@drawable/aas</item>
+        <item>@drawable/dahls</item>
+        <item>@drawable/hansa</item>
+        <item>@drawable/nordlands</item>
+        <item>@drawable/ringnes</item>
+    </array>
+</resources>

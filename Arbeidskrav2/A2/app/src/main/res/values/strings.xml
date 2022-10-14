@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">A2</string>
+    <string name="to_math_actiivity">Gå til mattespørsmål</string>
+    <string name= "add">Adder</string>
+    <string name= "multiply">Multipliser</string>
+    <string name="answer">Svar: </string>
+    <string name="upper_limit">Øvre grense</string>
+    <string name="correct_answer">Riktig!</string>
+    <string name="wrong_answer">Feil. Riktig svar er: </string>
+    <string name = "num1">Tall 1</string>
+    <string name="num2">Tall 2</string>
+</resources>

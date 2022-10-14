@@ -1,0 +1,4 @@
+#Thu Oct 13 20:16:35 CEST 2022
+base.0=/home/henrik/Documents/Skole/Applikasjonsutvikling/IDATT2506-Applikasjonsutvikling/Arbeidskrav6/Klient/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

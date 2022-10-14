@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathActivity">
+
+    <TextView
+        android:id="@+id/upper_limit_text2"
+        android:layout_width="110dp"
+        android:layout_height="22dp"
+        android:text="Skriv inn ditt svar"
+        app:layout_constraintBottom_toTopOf="@+id/user_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upper_limit_input" />
+
+    <TextView
+        android:id="@+id/Num1Text"
+        android:layout_width="110dp"
+        android:layout_height="22dp"
+        android:text="@string/num1"
+        app:layout_constraintBottom_toTopOf="@+id/Num1"
+        app:layout_constraintEnd_toStartOf="@+id/Num2Text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Num2Text"
+        android:layout_width="110dp"
+        android:layout_height="18dp"
+        android:text="@string/num2"
+        app:layout_constraintBottom_toTopOf="@+id/tall2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Num1Text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Num1"
+        android:layout_width="19dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/upper_limit_text"
+        app:layout_constraintEnd_toStartOf="@+id/tall2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Num1Text" />
+
+    <TextView
+        android:id="@+id/tall2"
+        android:layout_width="19dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/upper_limit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Num1"
+        app:layout_constraintTop_toBottomOf="@+id/Num2Text" />
+
+    <EditText
+        android:id="@+id/user_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button_addition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upper_limit_text2" />
+
+    <EditText
+        android:id="@+id/upper_limit_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/upper_limit_text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upper_limit_text" />
+
+    <TextView
+        android:id="@+id/upper_limit_text"
+        android:layout_width="166dp"
+        android:layout_height="22dp"
+        android:text="Skriv inn øvre grense"
+        app:layout_constraintBottom_toTopOf="@+id/upper_limit_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Num1" />
+
+    <Button
+        android:id="@+id/button_addition"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickAddition"
+        android:text="@string/add"
+        app:layout_constraintBottom_toTopOf="@+id/button_multiplication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_answer" />
+
+    <Button
+        android:id="@+id/button_multiplication"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickMultiply"
+        android:text="@string/multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_addition" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
